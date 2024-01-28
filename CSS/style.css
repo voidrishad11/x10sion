@@ -1,94 +1,103 @@
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 15px;
-    text-align: center;
+html 
+{
+  scroll-behavior: smooth;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+/* Global Styles */
+
+h1 {
+  font-size: 50px;
+  line-height: 64px;
+  color: #222;
 }
 
-nav li {
-    display: inline;
-    margin-right: 20px;
+h2 {
+  font-size: 46px;
+  line-height: 54px;
+  color: #222;
 }
 
-main {
-    padding: 20px;
+h4 {
+  font-size: 20px;
+  color: #222;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 15px;
-    text-align: center;
+h6 {
+  font-weight: 700;
+  font-size: 12px;
 }
 
-/* Common styles for forms */
-form {
-    margin-top: 20px;
+p {
+  font-size: 16px;
+  color: #465b52;
+  margin: 15px 0 20px 0;
 }
 
-label {
-    display: block;
-    margin-bottom: 5px;
+
+.section-p1 
+{
+  padding: 40px 80px;
 }
 
-input,
-textarea {
+.section-m1 
+{
+  margin: 40px 0;
+}
+
+body 
+{
+  width: 100%;
+}
+/* header */
+.logo-container {
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+}
+
+.logo-container img {
     width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    box-sizing: border-box;
+    height: 100%;
+    object-fit: contain;
 }
 
-button {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
+#header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 20px 80px;
 }
 
-button:hover {
-    background-color: #555;
+#navbar li
+{
+    padding: 0 20px;
+    list-style: none;
 }
-
-/* Styles for product grid */
-.product {
-    border: 1px solid #ddd;
-    padding: 15px;
-    margin-bottom: 20px;
+#navbar li a
+{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    transition: 0.2s ease;
 }
-
-/* Styles for cart items */
-.cart-item {
-    border: 1px solid #ddd;
-    padding: 15px;
-    margin-bottom: 20px;
-}
-
-/* Styles for user profile sections */
-ul {
-    padding: 0;
-    list-style-type: none;
-}
-
-ul li {
-    margin-bottom: 10px;
-}
-
-/* Styles for store information */
-#map {
-    height: 300px;
-    /* Add more styles for the map container */
+#navbar li a:hover,
+#navbar li a.active
+{
+    color:coral;
 }

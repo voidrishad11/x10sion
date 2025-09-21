@@ -1,0 +1,83 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<link rel="stylesheet" href="signIN.css">
+<title>x10sion</title> 
+</head> 
+<body> 
+ 
+<div class="container"> 
+    <form id="registration-form" class="center text-center shadow p-4 rounded bg-warning bg-opacity-50" style="max-width: 400px; height: 400px"> 
+        <div class="mb-5"> 
+            <label for="name">Name</label> 
+            <input type="text" id="name" class="form-control" name="name" placeholder="Enter your name" required> 
+        </div> 
+        
+        <div class="my-5"> 
+            <label for="email">Email</label> 
+            <input type="email" id="email" class="form-control" name="email" placeholder="Enter your email" required> 
+        </div> 
+        <div class="mb-5"> 
+            <label for="password">Password</label> 
+            <input type="password" id="password" class="form-control" name="password" placeholder="Enter your password" required> 
+        </div> 
+        
+        <button type="submit" class="btn btn-dark text-warning mx-auto" style="width: 100%">Register</button> 
+    </form> 
+    <!-- <button id="download-button" class="btn btn-dark text-warning mx-auto mt-3" style="width: 100%">Download User Data</button> --> 
+</div> 
+ 
+<script> 
+// Function to handle registration form submission 
+document.getElementById("registration-form").addEventListener("submit", function(event) { 
+    event.preventDefault(); 
+ 
+    // Get user input 
+    var email = document.getElementById("email").value; 
+    var password = document.getElementById("password").value; 
+    var name = document.getElementById("name").value; 
+ 
+    // Retrieve existing user data from localStorage or initialize empty array 
+    var users = JSON.parse(localStorage.getItem("userData")) || []; 
+ 
+    // Add new user data to the array 
+    users.push({ "email": email, "password": password, "name": name }); 
+ 
+    // Save updated user data back to localStorage 
+    localStorage.setItem("userData", JSON.stringify(users)); 
+ 
+    // Clear the form fields for next registration 
+    document.getElementById("email").value = ""; 
+    document.getElementById("password").value = ""; 
+    document.getElementById("name").value = ""; 
+ 
+    alert("User registered successfully!"); 
+}); 
+ 
+// // Function to handle download button click 
+// document.getElementById("download-button").addEventListener("click", function() { 
+//     // Retrieve user data from localStorage 
+//     var userData = localStorage.getItem("userData"); 
+ 
+//     // Check if there's data to download 
+//     if (userData) { 
+//         // Convert user data string to blob 
+//         var blob = new Blob([userData], { type: 'application/json' }); 
+ 
+//         // Create download link 
+//         var link = document.createElement('a'); 
+//         link.href = URL.createObjectURL(blob); 
+//         link.download = 'all_user_data.json'; 
+ 
+//         // Trigger download 
+//         link.click(); 
+//     } else { 
+//         alert("No user data to download."); 
+//     } 
+// }); 
+</script> 
+ 
+</body> 
+</html>

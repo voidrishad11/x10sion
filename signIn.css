@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    border-radius: 12px;
+}
+
+#registration-form {
+    background-color: #ffffff; 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8); /* Adding box shadow */
+}
+
+#registration-form label {
+    font-weight: bold;
+}
+
+#registration-form input[type="text"],
+#registration-form input[type="email"],
+#registration-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Adding box shadow */
+}
+
+#registration-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #343a40;
+    color: #efb300;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Adding transition effect */
+}
+
+#registration-form button:hover {
+    background-color: #212529; /* Darker Gray */
+}
+
+/* Optional: Add styles for additional button */
+/* #download-button {
+    margin-top: 20px;
+} */

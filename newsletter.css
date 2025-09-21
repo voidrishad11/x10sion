@@ -1,0 +1,101 @@
+/* #newsletter{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(./img/new.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #606063;
+  }
+  
+  #newsletter h4{
+    font-style: 22px;
+    font-weight: 700;
+    color: #fff;
+  }
+  
+  #newsletter p{
+    font-style: 14px;
+    font-weight: 600;
+    color: #818ea0;
+  }
+  
+  #newsletter p span{
+    color: rgb(224, 43, 37);
+  }
+  #newsletter .form{
+    display: flex;
+    width: 40%;
+  }
+  #newsletter input{
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-style: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  #newsletter button:hover{
+    background-color: #088178;
+    color: #fff;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  } */
+
+  #newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(./img/new.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 20% 30%;
+    background-color: #088178;
+  }
+  #newsletter h4{
+    font-style: 22px;
+    font-weight: 700;
+    color: #fff;
+  }
+  #newsletter p{
+    font-style: 14px;
+    font-weight: 600;
+    color: #818ea0;
+  }
+  #newsletter p span{
+    color: rgb(224, 43, 37);
+  }
+  #newsletter .form{
+    display: flex;
+    width: 40%;
+  }
+  #newsletter input{
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-style: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  #newsletter button{
+    background-color: #088178;
+    color: #fff;
+    white-space: pre;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }

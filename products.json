@@ -1,0 +1,10 @@
+[
+    { "name": "New Trendy Short Sleeve", "url": "sproduct.html", "image": "sproduct_image1.jpg", "price": "19.99" },
+    { "name": "Summer Stylist T-Shirt", "url": "sproduct2.html", "image": "sproduct_image2.jpg", "price": "24.99" },
+    { "name": "Summer Stylist T-Shirt2", "url": "sproduct3.html", "image": "sproduct_image3.jpg", "price": "29.99" },
+    { "name": "Summer Brand New Model", "url": "sproduct4.html", "image": "sproduct_image4.jpg", "price": "22.99" },
+    { "name": "Stylist T-Shirt For Summer", "url": "sproduct5.html", "image": "sproduct_image5.jpg", "price": "27.99" },
+    { "name": "Summer Brand New Model", "url": "sproduct6.html", "image": "sproduct_image6.jpg", "price": "19.99" },
+    { "name": "Standard Size Man", "url": "sproduct7.html", "image": "sproduct_image7.jpg", "price": "32.99" },
+    { "name": "Tshirt Collection 2023", "url": "sproduct8.html", "image": "sproduct_image8.jpg", "price": "29.99" }
+]

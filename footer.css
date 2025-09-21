@@ -1,0 +1,62 @@
+.footer{
+    background-color: #e1ebea;
+}
+.footer .col .foo-logo{
+    border-radius: 10px;
+    height: 40px;
+    width: 40px;
+    margin-bottom: 30px;
+}
+.footer #foo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+#install .row img{
+    width: 50%;
+}
+#install img {
+    width: 90%;
+    height: 40px;
+}
+#foo h4{
+    font-size: 15px;
+    padding-bottom: 20px;
+    margin: 0 0 8px 0 px;
+}
+#foo a, p {
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+}
+#foo .follow i{
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+#foo #install .row img {
+    border: 1px solid #088178;
+    border-radius: 6px;
+}
+#foo #install img{
+    margin: 10px 0 15px 0;
+}
+#foo .follow i:hover{
+    color: #088178;
+}
+#foo a:hover{
+    color: #088178;
+}
+.footer .copyright p{
+    width: 100%;
+    text-align: center;
+}

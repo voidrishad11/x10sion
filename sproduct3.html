@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>x10sion</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      <!--HEADER SECTION START-->
+      <section id="header">
+        <a href="#"><img src="./img/x10sion.jpeg" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <div>
+                  <input id="searchInput" type="text"list="productSuggestions" placeholder="Search in x10sion">
+                <datalist id="productSuggestions"></datalist>
+                <button id="searchButton" type="submit"><i class="fa fa-search"></i></button>
+                </div>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html" id="lg-hide"><i class='bx bx-shopping-bag'></i> <span id="cartQuantity">0</span></a></li>
+                <li><a href="user.html" id="lg-hide"><i class='bx bx-user' ></i></a></li>
+                <a href="#" id="close" aria-label="Close Account Info Modal Box">×</a>
+              </ul>
+        </div>
+
+        <div id="mobile">
+          <a href="user.html" id="log-in"><i class='bx bx-user' ></i>
+            <a href="cart.html"><i class='bx bx-shopping-bag'></i> <span id="mobileCartQuantity">0</span></a>
+          <i id="bar" class='bx bx-menu'></i>
+        </div>
+    </section>
+    <!--HEADER SECTION END-->
+    
+        <section id="prodetails" class="section-p1">
+          <div class="single-pro-image">
+            <img src="img/products/f3.jpg" width="100%" id="MainImg" alt="">
+
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="img/products/f3.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/products/f2.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/products/f4.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                  <img src="img/products/f5.jpg" width="100%" class="small-img" alt="">
+              </div>
+            </div>
+        </div>
+            <div class="singel-pro-details">
+              <h6>Home/Shirt</h6>
+              <h4>Men's Festive Shirt</h4>
+              <h2>$120.00</h2>
+              <select>
+                <option>Select Size</option>
+                <option>XL</option>
+                <option>XXL</option>
+                <option>Small</option>
+                <option>Large</option>
+              </select>
+              <label for="productQuantity">Quantity:</label>
+              <select id="productQuantity">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+              </select>
+              <button class="normal" onclick="addToCart()">Add To Cart</button>
+              <h4>Product Details</h4>
+              <span>Dark teal single jersey knit cotton 
+                Taaga Man slim fit t-shirt with mint green, 
+                slate blue, brown and beige embroidery. 
+                Rib-knit round neck
+              </span>
+            </div>  
+        </section>
+
+        <section></section>
+
+        <section id="product1" class="section-p1">
+          <h2>Featured Products</h2>
+          <p>Summer Collection New Morden Design</p>
+          <div class="pro-container">
+            <div class="pro" onclick="window.location.href='sproduct5.html';">
+              <img src="./img/products/f5.jpg" alt="">
+              <div class="des">
+                <span>Local</span>
+                <h5>New Trendy Short Sleeve T-Shirt For Man</h5>
+                <div class="star">
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                </div>
+                <h4>$78</h4>
+              </div>
+              <a href="#"><i class='bx bx-cart cart'></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='sproduct6.html';">
+              <img src="./img/products/f6.jpg" alt="">
+              <div class="des">
+                <span>Local</span>
+                <h5>Summer Stylist T-Shirt - Tshirt For Men - T Shirt For Man</h5>
+                <div class="star">
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                </div>
+                <h4>$79</h4>
+              </div>
+              <a href="#"><i class='bx bx-cart cart'></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='sproduct7.html';">
+              <img src="./img/products/f7.jpg" alt="">
+              <div class="des">
+                <span>Local</span>
+                <h5>Summer Stylist T-Shirt - Tshirt For Men - T Shirt For Man </h5>
+                <div class="star">
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                </div>
+                <h4>$98</h4>
+              </div>
+              <a href="#"><i class='bx bx-cart cart'></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='sproduct15.html';">
+              <img src="./img/products/p2.jpg" alt="">
+              <div class="des">
+                <span>Local</span>
+                <h5>Summer Brand New Model full sleeved Tshirt For Men</h5>
+                <div class="star">
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                </div>
+                <h4>$108</h4>
+              </div>
+              <a href="#"><i class='bx bx-cart cart'></i></a>
+            </div>
+          </div>
+        </section>
+        
+        <!-- Newsletter Section START -->
+        <section id="newsletter" class="section-p1 section-m1">
+            <div class="newstext">
+            <h4>Sign up Newsletter</h4>
+            <p>Get <span>exciting </span>updates and offers on your email.</p>
+            </div>
+            <div class="form">
+            <input type="email"placeholder="Your email address">
+            <button type="submit" class="white">Sign Up</button>
+            </div>
+        </section>
+
+        <!-- Newsletter Section END -->
+
+        <!-- footer section Start -->
+        <section class="footer section-p1">
+        <footer id="foo">
+          <div class="col">
+            <img class="foo-logo" src="./img/x10sion.jpeg" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong>Hajari Lane, Laldighi, Chattagram</p>
+            <p><strong>Number : </strong>+8801571151411 , +8801645350942 </p>
+            <p><strong>Hours : </strong>10:00-4:00 , Monday - Saturday</p>
+            <div class="follow">
+              <h4>Follow Us</h4>
+              <div class="icon">
+                <i class='bx bxl-facebook-circle'></i>
+                <i class='bx bxl-twitter' ></i>
+                <i class='bx bxl-youtube' ></i>
+                <i class='bx bxl-instagram' ></i>
+                <i class='bx bxl-pinterest' ></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+          </div>
+          
+          <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+          </div>
+
+          <div class="col" id="install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="./img/Pay/app.jpg" alt="">
+                <img src="./img/Pay/play.jpg" alt="">
+            </div>
+            <p>Secure Payment Gateway</p>
+            <img src="./img/Pay/pay.png" alt="">
+        </div>
+        </footer>
+        <div class="copyright">
+          <p><i class='bx bx-copyright'></i> 2024, sou-bid-ari-rish - <strong>sbar</strong></p>
+        </div>
+        </section>
+      <!--Footer section end-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script>
+      var MainImg = document.getElementById("MainImg");
+      var smallimg = document.getElementsByClassName("small-img");
+
+      smallimg [0].onclick = function() {
+        MainImg.src = smallimg[0].src;
+      }
+      smallimg [1].onclick = function() {
+        MainImg.src = smallimg[1].src;
+      }
+      smallimg [2].onclick = function() {
+        MainImg.src = smallimg[2].src;
+      }
+      smallimg [3].onclick = function() {
+        MainImg.src = smallimg[3].src;
+      }
+    </script>
+  <script>
+    // Function to add product to cart
+    function addToCart() {
+        // Get product details
+        var productName = "Men's Festive Shirt";
+        var productPrice = 120.00;
+        var productSize = "M";
+        var quantity = parseInt(document.getElementById('productQuantity').value); // Get selected quantity
+
+        var productImage = "img/products/f3.jpg"; // Adjust the image URL accordingly
+
+        // Construct the product object
+        var product = {
+            name: productName,
+            price: productPrice,
+            size: productSize,
+            quantity: quantity,
+            image: productImage // Include the image URL in the product object
+        };
+
+        // Check if cart is available in local storage
+        var cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+        // Add the product to the cart
+        cart.push(product);
+
+        // Update the cart in local storage
+        localStorage.setItem('cart', JSON.stringify(cart));
+
+        // Alert the user that the product has been added to the cart
+        alert("Product added to cart!");
+    }
+
+    // Add event listener to Add to Cart button
+    var addToCartButton = document.getElementById('addToCartBtn');
+    addToCartButton.addEventListener('click', addToCart);
+</script>
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  </body>
+</html>

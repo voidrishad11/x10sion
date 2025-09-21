@@ -1,0 +1,96 @@
+#prodetails .singel-pro-details {
+    width: 50%;
+    padding-top: 30px;
+}
+
+#prodetails .singel-pro-details h4{
+    padding: 40px 0 20px 0;
+}
+
+#prodetails .singel-pro-details h2{
+    font-size: 26px;
+}
+
+#prodetails .singel-pro-details select {
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+#prodetails .singel-pro-details input {
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#prodetails .singel-pro-details input:focus {
+    outline: none;
+    
+}
+
+#prodetails .singel-pro-details button{
+    background-color: #088178;
+    color: #fff;
+}
+
+#prodetails .singel-pro-details span {
+    line-height: 25px;
+}
+
+/*product details 2 */
+
+#prodetails .singel-pro-details2 {
+    width: 50%;
+    padding-top: 30px;
+}
+
+#prodetails .singel-pro-details2 h4{
+    padding: 40px 0 20px 0;
+}
+
+#prodetails .singel-pro-details2 h2{
+    font-size: 26px;
+}
+
+#prodetails .singel-pro-details2 select {
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+#prodetails .singel-pro-details2 input {
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#prodetails .singel-pro-details2 input:focus {
+    outline: none;
+    
+}
+
+#prodetails .singel-pro-details2 button{
+    background-color: #088178;
+    color: #fff;
+}
+
+#prodetails .singel-pro-details2 span {
+    line-height: 25px;
+}
+
+
+#pagination{
+    text-align: center;
+}
+
+#pagination a{
+    text-decoration: none;
+    background-color:darkslategray;
+    padding: 15px 20px;
+    color: #fff;
+    font-weight: 600;
+}

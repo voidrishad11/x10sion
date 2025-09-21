@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>x10sion</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <style>
+    /* log in dropdown */
+.dropdown-toggle::after {
+    display: none;
+  }
+  
+  </style>
+    <!-- Bootstrap CSS -->
+    </head>
+  <body>
+      <!--HEADER SECTION START-->
+      <section id="header">
+        <a href="#"><img src="./img/x10sion.jpeg" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <div>
+                  <input id="searchInput" type="text"list="productSuggestions" placeholder="Search in x10sion">
+                <datalist id="productSuggestions"></datalist>
+                <button id="searchButton" type="submit"><i class="fa fa-search"></i></button>
+                </div>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a class="active" href="cart.html" id="lg-hide"><i class='bx bx-shopping-bag'></i> <span id="cartQuantity">0</span></a></li>
+                <li>
+                  <div class="dropdown">
+                    <a
+                      class="dropdown-toggle"
+                      id="userDropdown"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                    <i class='bx bx-user' ></i>
+                    </a>
+                    <ul
+                      class="dropdown-menu dropdown-menu-end"
+                      aria-labelledby="userDropdown"
+                    >
+                      <li><a class="dropdown-item" href="#">Profile</a></li>
+                      <li>
+                        <a
+                          class="dropdown-item d-flex align-items-center"
+                          href="main.html"
+                          ><p class="mb-0">Log out</p>
+                          <i class="lni lni-exit text-dark"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div></li>
+                <a href="#" id="close" aria-label="Close Account Info Modal Box">×</a>
+              </ul>
+        </div>
+
+        <div id="mobile">
+          <a href="user.html" id="log-in"><i class='bx bx-user' ></i>
+            <a href="cart.html"><i class='bx bx-shopping-bag'></i> <span id="mobileCartQuantity">0</span></a>
+          <i id="bar" class='bx bx-menu'></i>
+        </div>
+    </section>
+    <!--HEADER SECTION END-->
+
+         <!--PAGE HEADER SECTION START-->
+         <section id="page-header">
+            <h2>Free Delivery Festival</h2>       
+            <p>Save more with coupons & up to 70% off!</p>
+        </section>
+        
+        <!--PAGE HEADER SECTION END-->
+        <section id="cart">
+          <table width="100%">
+            <thead>
+                <tr>
+                  <th>Image</th>
+                  <th>Product</th>
+                  <th>Price</th>
+                  <th>Quantity</th>
+                  <th>Subtotal</th>
+                  <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="cartItems">
+                <!-- Cart items will be dynamically added here -->
+            </tbody>
+        </table>
+        <br><br>
+        <section id="cart-add">
+            <div id="coupon">
+                <h3>Apply Coupon</h3>
+                <div>
+                    <input type="text" placeholder="Enter Your Coupon">
+                    <button class="normal">Apply</button>
+                </div> 
+            </div>
+                 
+            <div id="subtotal">
+                <table>
+                </table>
+            </div>
+            <div id="payBtn">
+              <button class="normal">Pay</button>
+            </div>
+        </section>
+      </section>
+      
+    <!-- footer section Start -->
+    <section class="footer section-p1">
+      <footer id="foo">
+        <div class="col">
+          <img class="foo-logo" src="./img/x10sion.jpeg" alt="">
+          <h4>Contact</h4>
+          <p><strong>Address: </strong>Hajari Lane, Laldighi, Chattagram</p>
+          <p><strong>Number : </strong>+8801571151411 , +8801645350942 </p>
+          <p><strong>Hours : </strong>10:00-4:00 , Monday - Saturday</p>
+          <div class="follow">
+            <h4>Follow Us</h4>
+            <div class="icon">
+              <i class='bx bxl-facebook-circle'></i>
+              <i class='bx bxl-twitter' ></i>
+              <i class='bx bxl-youtube' ></i>
+              <i class='bx bxl-instagram' ></i>
+              <i class='bx bxl-pinterest' ></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <h4>About</h4>
+          <a href="#">About Us</a>
+          <a href="#">Delivery Information</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Contact Us</a>
+        </div>
+        
+        <div class="col">
+          <h4>My Account</h4>
+          <a href="#">Sign In</a>
+          <a href="#">View Cart</a>
+          <a href="#">My Wishlist</a>
+          <a href="#">Track My Order</a>
+          <a href="#">Help</a>
+        </div>
+
+        <div class="col" id="install">
+          <h4>Install App</h4>
+          <p>From App Store or Google Play</p>
+          <div class="row">
+              <img src="./img/Pay/app.jpg" alt="">
+              <img src="./img/Pay/play.jpg" alt="">
+          </div>
+          <p>Secure Payment Gateway</p>
+          <img src="./img/Pay/pay.png"alt="">
+        
+          
+      </div>
+      </footer>
+      <div class="copyright">
+        <p><i class='bx bx-copyright'></i> 2024, sou-bid-ari-rish - <strong>sbar</strong></p>
+      </div>
+    </section>
+    <!--Footer section end-->
+    <script>
+    // Function to calculate subtotal
+    function calculateSubtotal(cart) {
+        var subtotal = 0;
+        cart.forEach(function(item) {
+            subtotal += item.price * item.quantity;
+        });
+        return subtotal;
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+        // Update total quantity and subtotal initially
+        updateCart();
+
+        // Function to update total quantity and subtotal
+        function updateCart() {
+            // Get cart items from local storage
+            var cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+            // Update total quantity
+            var totalQuantity = 0;
+            cart.forEach(function(item) {
+                totalQuantity += item.quantity;
+            });
+            document.getElementById('cartQuantity').textContent = totalQuantity;
+            document.getElementById('mobileCartQuantity').textContent = totalQuantity;
+
+            // Update subtotal
+            var subtotal = calculateSubtotal(cart);
+            document.getElementById('subtotal').textContent = '$' + subtotal.toFixed(2);
+        }
+
+        // Add event listener for changes in the cart
+        window.addEventListener('storage', function(e) {
+            if (e.key === 'cart') {
+                updateCart();
+            }
+        });
+    });
+</script>
+      <!--Footer section end-->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

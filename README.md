@@ -24,4 +24,4 @@ A modern and responsive shopping website designed to provide a smooth and engagi
 ## 📦 Installation & Setup  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/x10sion.git
+   git clone https://github.com/voidrishad11/x10sion.git
